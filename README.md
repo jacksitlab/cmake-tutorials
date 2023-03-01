@@ -20,11 +20,16 @@ $ cmake -S ..
 ```
 $ make
 ```
+  * run install (optional)
+```
+$ sudo make install
+```
   * run your executable
 ```
 $ ./simple_test 
 Hello World
 ```
+
 
 ## Parts
 
