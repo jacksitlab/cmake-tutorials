@@ -11,6 +11,6 @@ add_executable(${PROJECT_NAME}
 )
 # both have to be after the executable
 # define source directory for lib folder. could be local too
-target_link_directories(${PROJECT_NAME} PRIVATE /usr/lib/x86_64-linux-gnu)
+#target_link_directories(${PROJECT_NAME} PUBLIC /usr/lib/x86_64-linux-gnu)
 # name the lib to link
 target_link_libraries(${PROJECT_NAME} curl)
