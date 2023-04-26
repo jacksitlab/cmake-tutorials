@@ -2,7 +2,7 @@
 
 #include <ctype.h>
 #include <stdlib.h>
-#include <string.h>
+
 /* iMode 0:ALL, 1:Left, 2:Right*/
 static char *str_trim_all(char *szStr, const char ch, int iMode) {
     if (szStr == NULL) return NULL;

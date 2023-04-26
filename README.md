@@ -45,3 +45,7 @@ $ sudo apt install libcurl4-openssl-dev
 
 01 with the extension by including libcurl
 
+### 03 - lib project
+
+simple library project with local installation and a header file to include into other projects
+
